@@ -7,14 +7,14 @@ A simple tool to backup all custom emojis from a Discord server using your user 
 ## Quick Start (Windows Users)
 
 ### Option 1: Simple (Recommended)
-1. [Download the latest release](https://github.com/yourusername/discord-emoji-downloader/releases) (`.exe` file)
+1. [Download the latest release](https://github.com/sizatiy/Discord-Emoji-Downloader/releases/tag/emojis) (`.exe` file)
 2. Double-click the `.exe` file
 3. Paste your Discord token
 4. Paste your server ID
 5. Done! Emojis appear on your Desktop
 
 ### Option 2: From Source
-1. Clone this repo: `git clone https://github.com/yourusername/discord-emoji-downloader`
+1. Clone this repo: `git clone https://github.com/sizatiy/Discord-Emoji-Downloader`
 2. `cd discord-emoji-downloader`
 3. `pip install -r requirements.txt`
 4. `python emoji_downloader.py`
