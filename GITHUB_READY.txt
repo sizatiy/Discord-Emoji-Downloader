@@ -1,0 +1,61 @@
+# GitHub Upload Checklist
+
+✅ **Ready to Upload to GitHub!**
+
+## Files Included
+
+### Core Application
+- `emoji_downloader.py` - Main application
+- `run.bat` - Easy Windows runner
+- `build_exe.bat` - Script to build .EXE file
+- `requirements.txt` - Python dependencies
+
+### Documentation
+- `README.md` - Full user guide (GitHub-ready)
+- `CONTRIBUTING.md` - Developer guide
+- `LICENSE` - MIT License
+
+### GitHub Setup
+- `.gitignore` - Excludes unnecessary files
+- `.github/` - Issue templates and PR templates
+  - `ISSUE_TEMPLATE/bug_report.md`
+  - `ISSUE_TEMPLATE/feature_request.md`
+  - `ISSUE_TEMPLATE/general_help.md`
+  - `pull_request_template.md`
+
+## To Upload to GitHub
+
+1. Create a new repository on GitHub
+2. `git init` in this folder
+3. `git add .`
+4. `git commit -m "Initial commit"`
+5. Add remote: `git remote add origin https://github.com/YOUR_USERNAME/discord-emoji-downloader.git`
+6. `git push -u origin main`
+
+## For Releases
+
+1. Build the .EXE: Run `build_exe.bat`
+2. Find it in `dist/emoji_downloader.exe`
+3. Create a GitHub Release and upload the .EXE
+4. Users can then download and use it directly!
+
+## Features Included
+
+✅ Download all custom emojis from a Discord server
+✅ User account token support (not bot)
+✅ Auto-saves to Desktop in organized folder
+✅ Supports both PNG and GIF animated emojis
+✅ Clean error handling and user feedback
+✅ Windows .EXE distribution ready
+✅ Full documentation
+✅ GitHub issue/PR templates
+✅ MIT License
+
+## Security
+
+- Token is never stored
+- Works entirely locally
+- No uploads (except to Discord API)
+- .gitignore excludes emoji folders
+
+Ready to share with the world! 🚀
