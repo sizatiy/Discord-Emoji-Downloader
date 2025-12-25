@@ -11,16 +11,16 @@ if not exist venv (
 )
 
 echo Installing dependencies...
-pip install -q -r requirements.txt
-pip install -q pyinstaller
+pip install -r requirements.txt
+pip install pyinstaller
 
 echo Building EXE...
-pyinstaller --onefile --name "Discord Emoji Downloader" --icon=emoji.ico emoji_downloader.py 2>nul
+pyinstaller --onefile --windowed --name "Discord Emoji Downloader" emoji_downloader_gui.py
 
-if exist dist\emoji_downloader.exe (
+if exist "dist\Discord Emoji Downloader.exe" (
     echo.
     echo ✓ Build complete!
-    echo ✓ EXE file: dist\emoji_downloader.exe
+    echo ✓ EXE file: dist\Discord Emoji Downloader.exe
     echo.
     echo You can now:
     echo 1. Share the EXE file with others
